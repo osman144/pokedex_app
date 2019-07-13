@@ -1,8 +1,8 @@
 import twilio, flask
 from twilio.rest import Client 
 import os
-import dotenv
-from dotenv import load_dotenv
+# import dotenv
+# from dotenv import load_dotenv
 # Import requests and Python's core JSON library.
 import requests
 import json
@@ -11,9 +11,9 @@ from twilio.twiml.messaging_response import MessagingResponse
 # from twilio.twiml import Response
 
 
-BASEDIR = os.path.abspath(os.path.dirname(__file__))
+# BASEDIR = os.path.abspath(os.path.dirname(__file__))
 
-load_dotenv(os.path.join(BASEDIR, '.env'))
+# load_dotenv(os.path.join(BASEDIR, '.env'))
 
 
 account_id = os.getenv('twilio_account_sid')
