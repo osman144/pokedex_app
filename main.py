@@ -46,7 +46,8 @@ def pokedex_description(pokemon_species):
 # Render home()
 @app.route("/")
 def home():
-    return render_template("home.html")
+    return '<h1> heroku </h1>'
+    # return render_template("home.html")
 
 # Render incoming message 
 # -------------------------------
