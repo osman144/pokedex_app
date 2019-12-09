@@ -5,5 +5,5 @@ twilio_api pokedex
 
 - Built with Python, Flask, Twilio API, and deployed to Heroku. 
 
+<img width="1387" alt="Screen Shot 2019-12-08 at 11 15 46 PM" src="https://user-images.githubusercontent.com/25594064/70409575-d34c9880-1a11-11ea-925b-1fcd614b7e8d.png">
 
-<img width="445" alt="Screen Shot 2019-04-20 at 8 18 29 PM" src="https://user-images.githubusercontent.com/25594064/70409385-3558ce00-1a11-11ea-906a-c028fb00ad0d.png">
