@@ -1,0 +1,59 @@
+/* -------------------------------------------------
+Background image for Website
+------------------------------------------------- */
+body {
+    background: url("../images/pokemon.jpg") fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    background-color: rgba(10,10,10,0.6);
+    background-blend-mode: overlay;
+}
+
+/* -------------------------------------------------
+Landing Text
+------------------------------------------------- */
+.landing-title {
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center */
+}
+
+.landing-text {
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+}
+
+.landing .h1, h1 {
+    font-size: 100px;
+}
+
+.landing .h2, h2 {
+    font-size: 95px;
+}
+
+/* -------------------------------------------------
+Button
+------------------------------------------------- */
+.btn-train {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.btn-train:hover {
+    background-color: white;
+    color: #1A2E95;
+}
+
+.btn {
+    font-size: 20px;
+}
